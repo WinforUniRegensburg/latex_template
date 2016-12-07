@@ -130,6 +130,16 @@ pdfpagelayout={SinglePage}
 \usepackage{listings}
   \lstset{numbers=left, numberstyle=\tiny, basicstyle=\scriptsize, backgroundcolor=\color{hellgrau}}
   \lstset{captionpos=b, aboveskip=15pt, belowskip=8pt, showstringspaces=false}
+  \lstset{literate=%
+  	{Ö}{{\"O}}1
+	{Ä}{{\"A}}1
+	{Ü}{{\"U}}1
+	{ß}{{\ss}}1
+	{ü}{{\"u}}1
+	{ä}{{\"a}}1
+	{ö}{{\"o}}1
+	{~}{{\textasciitilde}}1
+  }
 
 
 
