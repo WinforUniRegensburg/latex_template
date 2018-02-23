@@ -6,8 +6,8 @@
 %\usepackage[ansinew]{inputenc} %TeXnicCenter kann leider kein UTF-8
 
 %Umlaute
-%\usepackage[english]{babel}
-\usepackage[ngerman]{babel}
+\usepackage[english]{babel}
+%\usepackage[ngerman]{babel}
 
 
 \usepackage{natbib}
@@ -151,7 +151,7 @@ pdfpagelayout={SinglePage}
 %Abkürzungsverzeichnis, nur verwendete Abkürzungen darstellen
 \usepackage[printonlyused]{acronym}
 
-%Anhang
+%Appendix
 \usepackage{appendix}
 
 
@@ -236,22 +236,22 @@ pdfpagelayout={SinglePage}
 %Inhaltsverzeichnis
   \phantomsection
 %  \addcontentsline{toc}{chapter}{Inhaltsverzeichnis}
-  \pdfbookmark[0]{Inhaltsverzeichnis}{Inhaltsverzeichnis}
-  \label{Inhaltsverzeichnis}
+  \pdfbookmark[0]{Table of Contents}{Table of Contents}
+  \label{Contents}
   \tableofcontents
   \newpage
   
 %Abbildungsverzeichnis
   \clearpage
   \phantomsection
-  \addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+  \addcontentsline{toc}{chapter}{List of Figures}
   \listoffigures
   \newpage
 
 %Tabellenverzeichnis
   \clearpage
   \phantomsection
-  \addcontentsline{toc}{chapter}{Tabellenverzeichnis}
+  \addcontentsline{toc}{chapter}{List of Tables}
   \listoftables
   \newpage
 
@@ -260,9 +260,9 @@ pdfpagelayout={SinglePage}
 % nur verwendete Abkürzungen werden dargestellt
   \clearpage
   \phantomsection
-  \chapter*{Abkürzungsverzeichnis}
-  \markboth{\uppercase{Abkürzungsverzeichnis}}{}
-   \addcontentsline{toc}{chapter}{Abkürzungsverzeichnis}
+  \chapter*{List of Abbreviations}
+  \markboth{\uppercase{List of Abbreviations}}{}
+   \addcontentsline{toc}{chapter}{List of Abbreviations}
    \begin{acronym}[MMMMMMMMM]
    %Kompaktansicht, Zeilenabstand verringern
    \setlength{\itemsep}{-\parsep}
@@ -294,79 +294,78 @@ pdfpagelayout={SinglePage}
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Einleitung %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Introduction %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{01_Einleitung}
+\include{01_Introduction}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Grundlagen/ Literaturüberblick %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Background and Literature Review %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{02_Grundlagen}
+\include{02_Background}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Entwicklung eines konzeptuellen Rahmens %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Conceptual Framework %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{03_Konzeptueller_Entwurf}
+\include{03_Conceptual_Framework}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Forschungsmethode %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Methodology %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{04_Forschungsmethode}
+\include{04_Methodology}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Ergebnisse %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Results %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{05_Ergebnisse}
+\include{05_Results}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Diskussion %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Discussion %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{06_Diskussion}
+\include{06_Discussion}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Schluss %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Conclusion %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{07_Schluss}
+\include{07_Conclusion}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%% Literaturverzeichnis %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% List of References %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\renewcommand{\appendixpagename}{Anhang}
+\renewcommand{\appendixpagename}{Appendix}
 
 \newpage
 
 \phantomsection
-\addcontentsline{toc}{chapter}{Anhang}
+\addcontentsline{toc}{chapter}{Appendix}
 \appendix
 \appendixpage
 
 %%\appendix
-%%\phantomsection\appendixpagename{Anhang} 
+%%\phantomsection\appendixpagename{Appendix} 
 % \renewcommand*
 %%\appendixpage
 %%\addappheadtotoc
 
-\chapter{Erster Anhang}
-\label{chap:anhang_1}
+\chapter{First Appendix}
+\label{chap:appendix_A}
 
-\chapter{Zweiter Anhang}
-\label{chap:anhang_2}
+\chapter{Second Appendix}
+\label{chap:appendix_B}
 
-\section{Anhang}
-\label{sec:anhang_2_1}
+\section{Appendix}
+\label{sec:appendix_B_1}
 
-\section{Anhang}
-\label{sec:anhang_2_2}
+\section{Appendix}
+\label{sec:appendix_B_2}
 
 \clearpage
 
-%%%%%%%%%%%%%%%%%%%%%%%%% Literaturverzeichnis %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% List of References %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \phantomsection
-\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+\addcontentsline{toc}{chapter}{List of References}
 \bibliography{References}
 
 \clearpage
 
 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Eidesstattliche Erklärung %%%%
+%%%%%%%%%%%%%%%%%%%%%%%% Eidesstattliche Erklärung %%%%%%%%%%%%%%%%%%%%%
 %
 % nur bei Abschlussarbeiten!
 %
