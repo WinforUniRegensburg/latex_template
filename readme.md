@@ -24,7 +24,7 @@ The  methodology section describes a systematic and goal-oriented approach to an
 
 # Chapter 5 – Results
 
-In this section the author presents the results of the study. In case they are presented by means of figures and/or tables, the results should be clearly legible. Furthermore, in the case of figures, it is recommended to use vector graphics as this ensures good readability without the need to pre-specify the font size within the figures. An example figure and table can be found in the latex/Word template contained in this repository. TODO add latex link
+In this section the author presents the results of the study. In case they are presented by means of figures and/or tables, the results should be clearly legible. Furthermore, in the case of figures, it is recommended to use vector graphics as this ensures good readability without the need to pre-specify the font size within the figures. An example figure and table can be found in the [latex](https://github.com/WinforUniRegensburg/thesis_seminar_template/blob/master/LatexVorlage.tex)  and  [Word](https://github.com/WinforUniRegensburg/thesis_seminar_template/blob/master/WordVorlage.docx) template contained in this repository.
 
 # Chapter 6 – Discussion
 
@@ -38,7 +38,7 @@ The conclusion contains a summary of the research study. In contrast to the Disc
 
 ## References and Citing
 
-Citations are managed using [JabRef](http://www.jabref.org/) ([Wikipedia article](https://en.wikipedia.org/wiki/JabRef)) with a [BibTex file](https://github.com/WinforUniRegensburg/thesis_seminar_template/blob/master/references.bib). In Microsoft Word, the Plugin [Docear4Word](http://www.docear.org/software/add-ons/docear4word/download/) is used to cite directly from the [BibTex file](https://github.com/WinforUniRegensburg/thesis_seminar_template/blob/master/references.bib). The [MISQ author-year citation style](https://misq.org/manuscript-guidelines) is the citation style to be used. For example, indirect citations e.g., (Webster and Watson 2002) or direct citations e.g., Webster and Watson(2002). For further guidelines regarding the reference section refer to the above link.
+Citations are managed using [JabRef](http://www.jabref.org/) ([Wikipedia article](https://en.wikipedia.org/wiki/JabRef)) with a [BibTex file](https://github.com/WinforUniRegensburg/thesis_seminar_template/blob/master/references.bib). In Microsoft Word, the Plugin [Docear4Word](http://www.docear.org/software/add-ons/docear4word/download/) is used to cite directly from the [BibTex file](https://github.com/WinforUniRegensburg/thesis_seminar_template/blob/master/references.bib). The [MISQ author-year citation style](https://misq.org/manuscript-guidelines) is the citation style to be used. For example, indirect citations e.g., (Webster and Watson 2002) or direct citations e.g., Webster and Watson (2002). For further guidelines regarding the reference section refer to the above link.
 
 ## Environment
 
